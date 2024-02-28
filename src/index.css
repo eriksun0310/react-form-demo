@@ -1,0 +1,27 @@
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #ccc;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form input{
+  margin: 10px 0;
+}
+
+p{
+  color: red;
+  font-size: bold;
+}
+
+p::before{
+  display: inline;
+  content:'⚠︎'
+}
